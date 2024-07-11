@@ -2,7 +2,8 @@
 Team Name: Binary Beacons
 
 Team Details:
-	Vishnu Priya (Team Leader)
+	
+ Vishnu Priya (Team Leader)
 	
  Shraddha Sinha
  
