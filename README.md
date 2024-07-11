@@ -3,7 +3,8 @@ Team Name: Binary Beacons
 
 Team Details:
 	Vishnu Priya (Team Leader)
-	Shraddha Sinha
+	
+ Shraddha Sinha
  
 ![image](https://github.com/vishnu2005/MYNTRA_HACKERRAMP_BINARY-BEACONS/assets/74764214/e9692254-6415-4262-bc1e-824d60839961)
 
