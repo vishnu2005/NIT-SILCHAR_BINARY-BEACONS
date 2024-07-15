@@ -1,0 +1,117 @@
+.product{
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 2rem;
+    color: rgb(245, 66, 96);
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.product-image{
+    width: 35%;
+    height: 400px;
+    margin-left: 40px;
+    float: left;
+}
+
+.product-details{
+    width: 55%;
+    height: 400px;
+    float: left;
+    margin-left: 40px;
+}
+
+.airport-product{
+    width: 300px;
+    height: 350px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.detail{
+    margin-top: 50px;
+}
+.btn-personalize-fit{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgb(243, 120, 192);
+    border-radius: 1.6rem;
+    padding: 0.8rem;
+}
+
+.btn-personalize-fit:hover{
+    transform: scale(1.02);
+}
+
+/*******************Personalise sizes********************/
+
+.personalize{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 2rem;
+    color: black;
+    margin-left: 30px;
+}
+
+.Sizes{
+    width: 30%;
+    height: 380px;
+    margin-left: 70px;
+    float: left;
+}
+
+.skin-tone{
+    width: 30%;
+    height: 250px;
+    margin-left: 70px;
+    float: left;
+}
+
+.skin{
+    width: 300px;
+    height: 200px;
+    margin-left: 40px;
+}
+
+.skin_tone{
+    margin-left: 40px;
+}
+/*********************AI Model Generate****************/
+
+.generate{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgb(243, 120, 192);
+    border-radius: 1.6rem;
+    padding: 0.8rem;
+}
+.model{
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 2rem;
+    color: rgb(245, 66, 96);
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.model-image{
+    border: 2px solid black;
+    width: 35%;
+    height: 400px;
+    margin-left: 40px;
+    float: left;
+}
+
+.model-details{
+    border: 2px solid black;
+    width: 55%;
+    height: 400px;
+    float: left;
+    margin-left: 40px;
+}
