@@ -56,10 +56,10 @@ def update_model_with_measurements(measurements):
             print(f"Measurement key '{key}' not found in MB-Lab model.")
 
 # Path to your JSON file
-json_file_path = 'C:/Users/DELL/Documents/C++/Hackerramp/NIT-SILCHAR_BINARY-BEACONS/untitled.json'
+json_file_path = 'C:/Users/DELL/Documents/C++/Hackerramp/NIT-SILCHAR_BINARY-BEACONS/user_measurements.json'
 
 # Import the measurements from the JSON file
-measurements = import_measurements('C:/Users/DELL/Documents/C++/Hackerramp/NIT-SILCHAR_BINARY-BEACONS/untitled.json')
+measurements = import_measurements('C:/Users/DELL/Documents/C++/Hackerramp/NIT-SILCHAR_BINARY-BEACONS/user_measurements.json')
 print("Measurements imported:", measurements)
 
 ## Ensure that an MB-Lab character is selected
