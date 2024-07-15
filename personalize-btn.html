@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Binary Beacons</title>
+    <link rel="stylesheet" href="AI-Model.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <div class="logo_container">
+            <a href="#"><img class="myntra_home" src="images/myntra_logo.webp" alt="Myntra Home"></a>
+        </div>
+        <nav class="nav_bar">
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#">Home & Living</a>
+            <a href="#">Beauty</a>
+            <a href="#">Studio <sup>New</sup></a>
+        </nav>
+        <div class="search_bar">
+            <span class="material-symbols-outlined search_icon">search</span>
+            <input class="search_input" placeholder="Search for products, brands and more">
+        </div>
+        <div class="action_bar">
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">person</span>
+                <span class="action_name">Profile</span>
+            </div>
+
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">favorite</span>
+                <span class="action_name">Wishlist</span>
+            </div>
+
+            <a class="action_container" href="pages/bag.html">
+                <span class="material-symbols-outlined action_icon">shopping_bag</span>
+                <span class="action_name">Bag</span>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="personalize">Personalize Fit Sizes</div>
+        <div class="Sizes">
+            <div id="controls">
+                <input type="number" id="upperleg_length" placeholder="Upper Leg Length (inches)">
+                <input type="number" id="buttock_depth_Y" placeholder="buttock depth Y (inches)">
+                <input type="number" id="buttock_width_X" placeholder="buttock width X (inches)">
+                <input type="number" id="wrist_girth" placeholder="wrist girth (inches)">
+                <input type="number" id="upperarm_axillary_girth" placeholder="upperarm axillary girth (inches)">
+                <input type="number" id="neck_girth" placeholder="neck girth (inches)">
+                <input type="number" id="lowerleg_length" placeholder="lower leg length (inches)">
+                <input type="number" id="lowerleg_bottom_girth" placeholder="Lower Leg Bottom Girth (inches)">
+                <input type="number" id="head_height_Z" placeholder="Head Height (inches)">
+                <input type="number" id="feet_length" placeholder="Feet Length (inches)">
+                <input type="number" id="lowerleg_calf_girth" placeholder="Lower Leg Calf Girth (inches)">
+                <input type="number" id="feet_heel_width" placeholder="Feet Heel Width (inches)">
+                <input type="number" id="torso_height_Z" placeholder="Torso Height (inches)">
+                <input type="number" id="upperleg_top_girth" placeholder="Upper Leg Top Girth (inches)">
+                <input type="number" id="shoulders_width" placeholder="Shoulders Width (inches)">
+                <input type="number" id="feet_height_Z" placeholder="Feet Height (inches)">
+                <input type="number" id="waist_girth" placeholder="Waist Girth (inches)">
+                <input type="number" id="elbow_girth" placeholder="Elbow Girth (inches)">
+                <input type="number" id="head_width_X" placeholder="Head Width (inches)">
+                <input type="number" id="chest_depth_Y" placeholder="Chest Depth (inches)">
+                <input type="number" id="upperleg_bottom_girth" placeholder="Upper Leg Bottom Girth (inches)">
+                <input type="number" id="forearm_length" placeholder="Forearm Length (inches)">
+                <input type="number" id="buttock_height_Z" placeholder="Buttock Height (inches)">
+                <input type="number" id="hands_width" placeholder="Hands Width (inches)">
+                <input type="number" id="hands_length" placeholder="Hands Length (inches)">
+                <input type="number" id="chest_girth" placeholder="Chest Girth (inches)">
+                <input type="number" id="upperarm_length" placeholder="Upper Arm Length (inches)">
+                <input type="number" id="feet_width" placeholder="Feet Width (inches)">
+                <input type="number" id="body_height_Z" placeholder="Body Height (inches)">
+                <input type="number" id="neck_height_Z" placeholder="Neck Height (inches)">
+                <input type="number" id="head_length" placeholder="Head Length (inches)">
+                <input type="number" id="buttock_girth" placeholder="Buttock Girth (inches)">
+                <input type="number" id="chest_width_X" placeholder="Chest Width (inches)">
+                <button onclick="updateModel()">Update Model</button>
+                <button onclick="reloadModel()">Reload Model</button>
+            </div>
+        </div>
+        <div class="skin-tone">
+             <p>Skin Tone: You can select according to your Skin Tone</p>
+             <img class="skin" src="images/skin tone.webp" alt="">
+             <input class="skin_tone" type="number" id="skin tone" placeholder="Skin Tone (range)">
+        </div>
+        <a href="generate.html" class="generate">Generate My AI Model</a>
+    </main>
+</body>
